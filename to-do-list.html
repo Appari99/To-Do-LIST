@@ -6,13 +6,20 @@
 body {
   margin: 0;
   min-width: 250px;
+<<<<<<< HEAD
 }
 
 /* Include the padding and border in an element's total width and height */
+=======
+  
+}
+
+>>>>>>> 8fc4cea247720b6bb966fe27c1d486bc4825005f
 * {
   box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 /* Remove margins and padding from the list */
 ul {
   margin: 0;
@@ -21,6 +28,11 @@ ul {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+=======
+ul {
+  margin: 0;
+  padding: 0;
+>>>>>>> 8fc4cea247720b6bb966fe27c1d486bc4825005f
 }
 
 /* Style the list items */
@@ -32,11 +44,14 @@ ul li {
   background: #eee;
   font-size: 18px;
   transition: 0.2s;
+<<<<<<< HEAD
     border-top: 1px solid #555;
   border-bottom: 1px solid #555;
   border-left: 1px solid #555;
   border-right: 1px solid #555;
       margin-top: 10px;
+=======
+>>>>>>> 8fc4cea247720b6bb966fe27c1d486bc4825005f
   
   /* make the list items unselectable */
   -webkit-user-select: none;
@@ -48,6 +63,7 @@ ul li {
 /* Set all odd list items to a different color (zebra-stripes) */
 ul li:nth-child(odd) {
   background: #f9f9f9;
+<<<<<<< HEAD
   padding-top: 10px;
   margin-top: 10px;
   border-top: 1px solid #555;
@@ -58,15 +74,20 @@ ul li:nth-child(odd) {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+=======
+>>>>>>> 8fc4cea247720b6bb966fe27c1d486bc4825005f
 }
 
 /* Darker background-color on hover */
 ul li:hover {
   background: #ddd;
+<<<<<<< HEAD
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+=======
+>>>>>>> 8fc4cea247720b6bb966fe27c1d486bc4825005f
 }
 
 /* When clicked on, add a background color and strike out text */
@@ -74,10 +95,13 @@ ul li.checked {
   background: #888;
   color: #fff;
   text-decoration: line-through;
+<<<<<<< HEAD
    -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+=======
+>>>>>>> 8fc4cea247720b6bb966fe27c1d486bc4825005f
 }
 
 /* Add a "checked" mark when clicked on */
@@ -92,14 +116,18 @@ ul li.checked::before {
   transform: rotate(45deg);
   height: 15px;
   width: 7px;
+<<<<<<< HEAD
    -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+=======
+>>>>>>> 8fc4cea247720b6bb966fe27c1d486bc4825005f
 }
 
 /* Style the close button */
 .close {
+<<<<<<< HEAD
     position: absolute;
     right: 0;
     top: 0;
@@ -110,15 +138,24 @@ ul li.checked::before {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+=======
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+>>>>>>> 8fc4cea247720b6bb966fe27c1d486bc4825005f
 }
 
 .close:hover {
   background-color: #f44336;
   color: white;
+<<<<<<< HEAD
      -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+=======
+>>>>>>> 8fc4cea247720b6bb966fe27c1d486bc4825005f
 }
 
 /* Style the header */
@@ -127,6 +164,7 @@ ul li.checked::before {
   padding: 30px 40px;
   color: white;
   text-align: center;
+<<<<<<< HEAD
   height:200px;
   border-top: 2px solid #ccc;
   border-bottom: 2px solid #ccc;
@@ -134,6 +172,8 @@ ul li.checked::before {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+=======
+>>>>>>> 8fc4cea247720b6bb966fe27c1d486bc4825005f
 }
 
 /* Clear floats after the header */
@@ -141,14 +181,18 @@ ul li.checked::before {
   content: "";
   display: table;
   clear: both;
+<<<<<<< HEAD
      -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+=======
+>>>>>>> 8fc4cea247720b6bb966fe27c1d486bc4825005f
 }
 
 /* Style the input */
 input {
+<<<<<<< HEAD
     margin: 0;
     border: none;
     border-radius: 0;
@@ -208,15 +252,45 @@ h2.header-one {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+=======
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+  
+/* Style the "Add" button */
+.addBtn {
+  padding: 10px;
+  width: 25%;
+  background: #d9d9d9;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+>>>>>>> 8fc4cea247720b6bb966fe27c1d486bc4825005f
 }
 </style>
 </head>
 <body>
+<<<<<<< HEAD
 
 <div id="myDIV" class="header">
   <h2 class="header-one">My To Do List</h2>
   <input type="text" id="myInput" placeholder="Title...">
   <span onclick="newElement()" class="addBtn">Add Item</span>
+=======
+<div id="myDIV" class="header">
+  <h2 style="margin:5px">My To Do List</h2>
+  <input type="text" id="myInput" placeholder="Title...">
+  <span onclick="newElement()" class="addBtn">Add</span>
+>>>>>>> 8fc4cea247720b6bb966fe27c1d486bc4825005f
 </div>
 
 <ul id="myUL">
@@ -282,4 +356,8 @@ function newElement() {
 </script>
 
 </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> 8fc4cea247720b6bb966fe27c1d486bc4825005f
