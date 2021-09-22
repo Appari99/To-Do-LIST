@@ -17,6 +17,10 @@ body {
 ul {
   margin: 0;
   padding: 0;
+     -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 /* Style the list items */
@@ -28,6 +32,11 @@ ul li {
   background: #eee;
   font-size: 18px;
   transition: 0.2s;
+    border-top: 1px solid #555;
+  border-bottom: 1px solid #555;
+  border-left: 1px solid #555;
+  border-right: 1px solid #555;
+      margin-top: 10px;
   
   /* make the list items unselectable */
   -webkit-user-select: none;
@@ -39,11 +48,25 @@ ul li {
 /* Set all odd list items to a different color (zebra-stripes) */
 ul li:nth-child(odd) {
   background: #f9f9f9;
+  padding-top: 10px;
+  margin-top: 10px;
+  border-top: 1px solid #555;
+  border-bottom: 1px solid #555;
+  border-left: 1px solid #555;
+  border-right: 1px solid #555;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 /* Darker background-color on hover */
 ul li:hover {
   background: #ddd;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 /* When clicked on, add a background color and strike out text */
@@ -51,6 +74,10 @@ ul li.checked {
   background: #888;
   color: #fff;
   text-decoration: line-through;
+   -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 /* Add a "checked" mark when clicked on */
@@ -65,19 +92,33 @@ ul li.checked::before {
   transform: rotate(45deg);
   height: 15px;
   width: 7px;
+   -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 /* Style the close button */
 .close {
-  position: absolute;
-  right: 0;
-  top: 0;
-  padding: 12px 16px 12px 16px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+    color: #f44336;
+    font-size: 24px;
+	   -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .close:hover {
   background-color: #f44336;
   color: white;
+     -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 /* Style the header */
@@ -86,6 +127,13 @@ ul li.checked::before {
   padding: 30px 40px;
   color: white;
   text-align: center;
+  height:200px;
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+     -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 /* Clear floats after the header */
@@ -93,31 +141,50 @@ ul li.checked::before {
   content: "";
   display: table;
   clear: both;
+     -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 /* Style the input */
 input {
-  margin: 0;
-  border: none;
-  border-radius: 0;
-  width: 75%;
-  padding: 10px;
-  float: left;
-  font-size: 16px;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+    height: 49px;
+	color: #f44336;
+	background: #fff;
+	   -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 /* Style the "Add" button */
 .addBtn {
-  padding: 10px;
-  width: 25%;
-  background: #d9d9d9;
-  color: #555;
-  float: left;
-  text-align: center;
-  font-size: 16px;
-  cursor: pointer;
-  transition: 0.3s;
-  border-radius: 0;
+padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+    border: none;
+    margin: 0;
+    font-weight: 700;
+    height: 49px;
+	   -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 
@@ -125,13 +192,29 @@ input {
 {
  background-color: #ccc;
  color:#000;
+    -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+h2.header-one {
+    color: #e4e9ea;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 20px 20px;
+    padding: 0px;
+	   -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 </style>
 </head>
 <body>
 
 <div id="myDIV" class="header">
-  <h2 style="margin:5px">My To Do List</h2>
+  <h2 class="header-one">My To Do List</h2>
   <input type="text" id="myInput" placeholder="Title...">
   <span onclick="newElement()" class="addBtn">Add Item</span>
 </div>
