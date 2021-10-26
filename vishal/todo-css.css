@@ -39,35 +39,33 @@ a {
   cursor: pointer;
 }
 
-button.btn.btn-primary
-{
- box-sizing: border-box;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-  background-color: transparent;
-  border: 2px solid #e74c3c;
-  border-radius: 0.6em;
-  color: #e74c3c;
-  cursor: pointer;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-self: center;
-      -ms-flex-item-align: center;
-          align-self: center;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1;
-  margin: 20px;
-  padding: 1.2em 2.8em;
-  text-decoration: none;
-  text-align: center;
-  text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-
+button.btn.btn-primary {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #930404;
+    border: 2px solid #ffffff;
+    border-radius: 0.6em;
+    color: #ffffff;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 @media screen and (max-width: 640px) {
@@ -75,27 +73,31 @@ button.btn.btn-primary
     font-size: 3rem;
   }
 }
-
-
-.form-group {
-    padding-top: 20px;
+h2 {
+    background: #00bcd4;
+    width: 541px;
+    padding: 11px 11px 11px 50px;
+    color: #fff;
+	margin:0px !important;
 }
 
 .form-group label
 {
- color:#c50909;
+  color: #ffffff;
+  font-size: 18px;
+  padding-right: 20px;
 }
 
 input#title {
-    height: 30px;
-    border-radius: 15px;
+    height: 40px;
+    border-radius: 0px;
     border: 1px solid #450909;
     float: none;
 }
 
 .form-control {
-    height: 30px;
-    border-radius: 15px;
+    height: 40px;
+    border-radius: 0px;
     border: 1px solid #450909;
     float: none;
 	padding-left:15px;
@@ -103,3 +105,17 @@ input#title {
 
 
 
+/* new styles */
+
+form
+{
+ background: #00bcd4;
+ padding: 150px 50px 150px 50px;
+ width: 500px;
+ text-align: justify;
+}
+
+input#due-date
+{
+ margin-top: 27px;
+}
