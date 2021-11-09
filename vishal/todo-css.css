@@ -1,121 +1,137 @@
-body {
-  margin: 0;
-  min-width: 250px;
+#task-list li
+{
+ background: #e5e5e3;
+ padding: 15px 0px 15px 19px;
+ margin-top: 67px;
+ list-style-type: none;
+ color: #09090a;
+ font-weight: 700;
+ border-radius: 48px;
+ 
 }
 
-a {
-  display: inline-block;
+.pagination
+{
+  padding-left: 40px !important;
+  cursor: pointer !important;
+  display:none;
 }
 
-.tasks {
-  margin: 30px 5px 5px 5px;
+.dropdown-menu
+{
+ display:none;
 }
 
-.tasks ul {
-  margin: 0;
-  padding: 0;
+.registration-form{
+	padding: 50px 0;
 }
 
-.tasks ul li {
-  cursor: pointer;
-  position: relative;
-  padding: 12px 8px 12px 40px;
-  background: #eee;
-  font-size: 18px;
-  transition: 0.2s;
+.registration-form form{
+    background-color: #fff;
+    max-width: 600px;
+    margin: auto;
+    padding: 50px 70px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
 }
 
-.tasks ul li:nth-child(odd) {
-  background: #f9f9f9;
+.registration-form .form-icon{
+	text-align: center;
+    background-color: #5891ff;
+   
+    font-size: 40px;
+    color: white;
+    
+    height: 100px;
+    margin: auto;
+    margin-bottom: 50px;
+    line-height: 100px;
 }
 
-.tasks ul li:hover {
-  background: #ddd;
+.registration-form .item{
+	border-radius: 20px;
+    margin-bottom: 25px;
+    padding: 10px 20px;
 }
 
-.dropdown-list {
-  padding: 5px 10px;
-  font-size: 15px;
-  cursor: pointer;
+.registration-form .create-account{
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #5791ff;
+    border: none;
+    color: white;
+    margin-top: 20px;
 }
 
-button.btn.btn-primary {
-    box-sizing: border-box;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background-color: #930404;
-    border: 2px solid #ffffff;
-    border-radius: 0.6em;
-    color: #ffffff;
-    cursor: pointer;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-self: center;
-    -ms-flex-item-align: center;
-    align-self: center;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1;
-    margin: 20px;
-    padding: 1.2em 2.8em;
-    text-decoration: none;
+.registration-form .social-media{
+    max-width: 600px;
+    background-color: #fff;
+    margin: auto;
+    padding: 35px 0;
     text-align: center;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: #9fadca;
+    border-top: 1px solid #dee9ff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
 }
 
-@media screen and (max-width: 640px) {
-  h2 {
-    font-size: 3rem;
-  }
-}
-h2 {
-    background: #00bcd4;
-    width: 541px;
-    padding: 11px 11px 11px 50px;
-    color: #fff;
-	margin:0px !important;
+.registration-form .social-icons{
+    margin-top: 30px;
+    margin-bottom: 16px;
 }
 
-.form-group label
+.registration-form .social-icons a{
+    font-size: 23px;
+    margin: 0 3px;
+    color: #5691ff;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 45px;
+    display: inline-block;
+    height: 45px;
+    text-align: center;
+    background-color: #fff;
+    line-height: 45px;
+}
+
+.registration-form .social-icons a:hover{
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+@media (max-width: 576px) {
+    .registration-form form{
+        padding: 50px 20px;
+    }
+
+    .registration-form .form-icon{
+       
+        height: 70px;
+        font-size: 30px;
+        line-height: 70px;
+    }
+}
+
+.close
 {
-  color: #ffffff;
-  font-size: 18px;
-  padding-right: 20px;
-}
-
-input#title {
-    height: 40px;
-    border-radius: 0px;
-    border: 1px solid #450909;
-    float: none;
-}
-
-.form-control {
-    height: 40px;
-    border-radius: 0px;
-    border: 1px solid #450909;
-    float: none;
-	padding-left:15px;
-}
-
-
-
-/* new styles */
-
-form
-{
- background: #00bcd4;
- padding: 150px 50px 150px 50px;
- width: 500px;
- text-align: justify;
-}
-
-input#due-date
-{
- margin-top: 27px;
+ float: right;
+ font-size: 21px;
+ font-weight: 700;
+ line-height: 1;
+ color: #fff;
+ text-shadow: 0 1px 0 #fff;
+ filter: alpha(opacity=20);
+ opacity: 1;
+ margin-top: -54px;
+ background: #5891ff;
+ padding: 6px 6px -1px 6px;
+ width: 25px;
+ height: 25px;
+ padding: 2px 6px;
+ border-radius: 25px;
+ margin-right: -8px;
 }
