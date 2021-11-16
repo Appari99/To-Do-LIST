@@ -1,12 +1,12 @@
 #task-list li
 {
- background: #e5e5e3;
+ background: #fff;
  padding: 15px 0px 15px 19px;
  margin-top: 67px;
  list-style-type: none;
  color: #09090a;
  font-weight: 700;
- border-radius: 48px;
+ border-radius: 11px;
  
 }
 
@@ -31,14 +31,14 @@
     max-width: 600px;
     margin: auto;
     padding: 50px 70px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+    border-radius: 30px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+	border: 2px solid #3a73df;
 }
 
 .registration-form .form-icon{
 	text-align: center;
-    background-color: #5891ff;
+    background-color: #1a2d87;
    
     font-size: 40px;
     color: white;
@@ -60,31 +60,27 @@
     padding: 10px 20px;
     font-size: 18px;
     font-weight: bold;
-    background-color: #5791ff;
+    background-color: #1a2d87;
     border: none;
     color: white;
     margin-top: 20px;
 }
 
-.registration-form .social-media{
+.registration-form{
     max-width: 600px;
-    background-color: #fff;
     margin: auto;
     padding: 35px 0;
-    text-align: center;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    color: #9fadca;
-    border-top: 1px solid #dee9ff;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+    text-align: left;
+    color: #000000;
+   
 }
 
-.registration-form .social-icons{
+.registration-form{
     margin-top: 30px;
     margin-bottom: 16px;
 }
 
-.registration-form .social-icons a{
+.registration-form  a{
     font-size: 23px;
     margin: 0 3px;
     color: #5691ff;
@@ -98,10 +94,17 @@
     line-height: 45px;
 }
 
-.registration-form .social-icons a:hover{
+.registration-form   a:hover{
     text-decoration: none;
     opacity: 0.6;
 }
+
+section
+{
+ height: 100vh;
+ background-image: url("../vishal/images.jpg");
+}
+
 
 @media (max-width: 576px) {
     .registration-form form{
@@ -118,20 +121,20 @@
 
 .close
 {
- float: right;
- font-size: 21px;
- font-weight: 700;
- line-height: 1;
- color: #fff;
- text-shadow: 0 1px 0 #fff;
- filter: alpha(opacity=20);
- opacity: 1;
- margin-top: -54px;
- background: #5891ff;
- padding: 6px 6px -1px 6px;
- width: 25px;
- height: 25px;
- padding: 2px 6px;
- border-radius: 25px;
- margin-right: -8px;
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #f44336;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: 1;
+    margin-top: -54px;
+    background: #ffffff;
+    padding: 6px 6px -1px 6px;
+    width: 25px;
+    height: 25px;
+    padding: 2px 6px;
+    border-radius: 25px;
+    margin-right: -8px;
 }
