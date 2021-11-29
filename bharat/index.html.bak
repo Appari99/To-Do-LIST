@@ -26,7 +26,7 @@
                 <input type="text" id="title" class="form-control item" placeholder="Add a title... ">
             </div>
             <div class="form-group">
-			    <label for="usr">Who should do it:- </label>
+			    <label for="usr">Who should do it:-</label>
                 <input type="text" class="form-control item" id="usr" placeholder="Add a user...">
             </div>
             <div class="form-group">
